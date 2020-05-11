@@ -63,23 +63,17 @@ $countOfDocuments = $obj->documents->count;
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4"> 
-							<a href="https://search.oceanbestpractices.org" target="_blank"> 
-								<div class="feature feature-search"> 
-									<img class="image" src="/wp-content/themes/understrap/images/search-for-a-best-practice.png" /> 
-									<div class="title">Search for A Best Practice</div> 
-									<div> 
-										<div class="text">
-											Click here to search for a Best Practice
-										</div> 
-										<div class="title2">
-											<?php echo $countOfDocuments; ?>
-										</div> 
-										<div class="text2"> Best practices in the Repository </div> 
-									</div> 
-								</div> 
-							</a> 
-						</div>
+						<div class="col-lg-4">
+                                                <a href="https://search.oceanbestpractices.org" target="_blank">
+                                                        <div class="feature feature-search">
+                                                                <img class="image" src="/wp-content/themes/understrap/images/search-for-a-best-practice.png" />
+                                                                <div class="title">Search for A Best Practice</div>
+                                                                <div class="text">Click here to search for a Best Practice</div>
+                                                                <div class="title2"><?php echo $countOfDocuments; ?></div>
+                                                                <div class="text2"> Best practices in the Repository</div>
+                                                        </div>
+                                                </a>
+                                                </div>
 					</div>
 				</div>
 			</div>
