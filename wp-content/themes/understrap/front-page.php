@@ -69,8 +69,8 @@ $countOfDocuments = $obj->documents->count;
                                                                 <img class="image" src="/wp-content/themes/understrap/images/search-for-a-best-practice.png" />
                                                                 <div class="title">Search for A Best Practice</div>
                                                                 <div class="text">Click here to search for a Best Practice</div>
-                                                                <div class="title2"><?php echo $countOfDocuments; ?></div>
-                                                                <div class="text2"> Best practices in the Repository</div>
+                                                                <div class="text2"><?php echo $countOfDocuments; ?></div>
+                                                                <div class="text"> Best Practices in the Repository</div>
                                                         </div>
                                                 </a>
                                                 </div>
