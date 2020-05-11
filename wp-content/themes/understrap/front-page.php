@@ -70,7 +70,7 @@ $countOfDocuments = $obj->documents->count;
 									<div class="title">Search for A Best Practice</div> 
 									<div> 
 										<div class="text">
-											<a class="" href="https://search.oceanbestpractices.org" target="_blank">Click here to search for a Best Practice</a>
+											Click here to search for a Best Practice
 										</div> 
 										<div class="title2">
 											<?php echo $countOfDocuments; ?>
