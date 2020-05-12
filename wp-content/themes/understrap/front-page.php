@@ -10,7 +10,7 @@ $container = get_theme_mod('understrap_container_type');
 ?>
 
 <?php
-$json = file_get_contents('https://97i5q6402i.execute-api.us-east-1.amazonaws.com/prod/statistics/');
+$json = file_get_contents('https://wtksu92k7b.execute-api.us-east-1.amazonaws.com/production/statistics/');
 $obj = json_decode($json);
 $countOfDocuments = $obj->documents->count;
 ?>
