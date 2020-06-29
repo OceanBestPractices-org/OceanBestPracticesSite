@@ -33,7 +33,7 @@ $countOfDocuments = $obj->documents->count;
 						<div class="map">
 							<div class="text-container">
 								<div class="text">
-									To have agreed and broadly adopted methods across ocean research, operations and application.</div>
+									To have agreed and broadly adopted methods across ocean research, operations and applications.</div>
 								<br/>
 								<!-- <div class="title2"><?php echo $countOfDocuments; ?></div> -->
 							</div>
