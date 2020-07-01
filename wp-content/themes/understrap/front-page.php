@@ -69,7 +69,7 @@ $countOfDocuments = $obj->documents->count;
                                     <img class="image" src="/wp-content/themes/understrap/images/search-for-a-best-practice.png" />
                                     <div class="title">Search for a Best Practice</div>
                                 </a>
-                                <div class="text" style="font-size: large;"><?php echo $countOfDocuments; ?></div>
+                                <div class="text" style="font-size: larger;"><?php echo $countOfDocuments; ?></div>
                                 <div class="text2">Best Practices in the Repository</div>
                                 <a href="https://repository.oceanbestpractices.org/password-login" target="_blank">
                                     <div class="title">Submit a Best Practice</div>
