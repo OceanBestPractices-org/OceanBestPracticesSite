@@ -82,6 +82,6 @@ function change_wp_mail_from_name(){
 add_filter("wp_mail_from_name", "change_wp_mail_from_name");
 
 function change_wp_mail_from(){
-    return "no-reply@obpsytem.org";
+    return "no-reply@oceanbestpractices.org";
 }
 add_filter("wp_mail_from", "change_wp_mail_from");
