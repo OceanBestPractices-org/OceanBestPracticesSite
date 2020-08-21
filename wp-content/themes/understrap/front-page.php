@@ -20,9 +20,13 @@ $countOfDocuments = $obj->documents->count;
 	<div class="container features">
 
         <!-- temp stamp to attract attention to workshop
-        remove this div and the css (themes/understrap/css/custom-editor-style.css) after workshop
+        remove this div and the css (wp-content/themes/understrap/stamp.css) after workshop
         Arno 21 aug 2020
         -->
+<?php
+    wp_enqueue_style( 'customstyles', get_stylesheet_directory_uri() . '/stamp.css' );
+?>
+
         <div
             class="col-sm-1 putStampHere"
             onclick="window.location.href = 'https://www.oceanbestpractices.org/community-engagement/workshop-iv-2020/'">
