@@ -28,8 +28,8 @@ $countOfDocuments = $obj->documents->count;
 ?>
 
         <div
-            class="col-sm-1 putStampHere"
-            onclick="window.location.href = 'https://www.oceanbestpractices.org/community-engagement/workshop-iv-2020/'">
+            class="col-sm-4 putStampHere"
+            onclick="window.location.href = '/community-engagement/workshop-iv-2020/'">
         </div>
         <!-- end temp stamp -->
 

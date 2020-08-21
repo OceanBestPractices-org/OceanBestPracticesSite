@@ -1,18 +1,18 @@
 /* add stamp on the homepage */
 div.putStampHere:after
 {
-    content:'Suggest an entry';
+    content:'OBPS Workshop IV';
     position:absolute;
-    top:-40px;
-    left:-60px;
+    top:-10px;
+    left:10px;
     z-index:1;
     font-family:Arial,sans-serif;
-    -webkit-transform: rotate(45deg); /* Safari */
-    -moz-transform: rotate(45deg); /* Firefox */
-    -ms-transform: rotate(45deg); /* IE */
-    -o-transform: rotate(45deg); /* Opera */
-    transform: rotate(45deg);
-    font-size:40px;
+    -webkit-transform: rotate(-30deg); /* Safari */
+    -moz-transform: rotate(-30deg); /* Firefox */
+    -ms-transform: rotate(-30deg); /* IE */
+    -o-transform: rotate(-30deg); /* Opera */
+    transform: rotate(-30deg);
+    font-size:50px;
     color:#c00;
     background:#fff;
     border:solid 4px #c00;
@@ -20,7 +20,7 @@ div.putStampHere:after
     border-radius:25px;
     zoom:1;
     filter:alpha(opacity=20);
-    opacity:0.2;
+    opacity:0.5;
     -webkit-text-shadow: 0 0 2px #c00;
     text-shadow: 0 0 2px #c00;
     box-shadow: 0 0 2px #c00;
