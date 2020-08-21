@@ -21,6 +21,8 @@
 *.log
 *.sql
 *o.sqlite
+.idea
+.idea/*
 
 #ignore the config file
 wp-config.php
