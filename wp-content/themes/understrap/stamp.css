@@ -1,7 +1,8 @@
 /* add stamp on the homepage */
 div.putStampHere:after
 {
-    content:'OBPS Workshop IV';
+    content:'     OBPS\AWorkshop IV';
+    white-space: pre-wrap;
     position:absolute;
     top:-10px;
     left:10px;
