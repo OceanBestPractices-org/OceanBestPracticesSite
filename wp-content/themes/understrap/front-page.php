@@ -18,6 +18,17 @@ $countOfDocuments = $obj->documents->count;
 <div class="wrapper">
 	<div class="features-wrapper parallax">
 	<div class="container features">
+
+        <!-- temp stamp to attract attention to workshop
+        remove this div and the css (themes/understrap/css/custom-editor-style.css) after workshop
+        Arno 21 aug 2020
+        -->
+        <div
+            class="col-sm-1 putStampHere"
+            onclick="window.location.href = 'https://www.oceanbestpractices.org/community-engagement/workshop-iv-2020/'">
+        </div>
+        <!-- end temp stamp -->
+
 		<div id="inner-container" class="inner-container">
 			<div class="row">
 				<div class="col-lg-4">
