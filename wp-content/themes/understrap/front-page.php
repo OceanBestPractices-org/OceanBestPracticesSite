@@ -57,6 +57,8 @@ $countOfDocuments = $obj->documents->count;
 						<!-- <div class="text2">
 							Best practices in the Repository
 						</div> -->
+                        <!-- tmp button for the Workshop 2020, still here for future use -->
+                        <!--
                         <div
                             class="col-sm-4"
                             onclick="window.location.href = '/community-engagement/workshop-iv-2020/'">
@@ -64,6 +66,7 @@ $countOfDocuments = $obj->documents->count;
                                 style="max-width: 400px;margin-bottom: 30px;"
                                 src="/wp-content/themes/understrap/images/obpsIV-ugly-button.png" />
                         </div>
+                        -->
 					</div>
 				</div>
 				<div class="col-lg-8">
