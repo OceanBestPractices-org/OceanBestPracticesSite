@@ -325,7 +325,7 @@ echo "<!-- $events_exist -->";
 
 		<div class="inner-container">
 			<div>
-				<img class="ioc" src="/wp-content/themes/understrap/images/UNESCO-IOC.jpg" />
+				<img class="ioc" src="/wp-content/themes/understrap/images/combined_unesco_ioc_blue_no_text_435x265.png" />
 				<img class="iode" src="/wp-content/themes/understrap/images/iode.png" />
 				<img class="goos" src="/wp-content/themes/understrap/images/goos.png" />
 			</div>
