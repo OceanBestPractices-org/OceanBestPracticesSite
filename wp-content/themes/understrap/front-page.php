@@ -17,7 +17,7 @@ $countOfDocuments = $obj->documents->count;
 
 <div class="wrapper">
 	<div class="features-wrapper parallax">
-	<div class="container features">
+	    <div class="container features">
 
         <!-- temp stamp to attract attention to workshop
         remove this div and the css (wp-content/themes/understrap/stamp.css) after workshop
@@ -34,72 +34,76 @@ $countOfDocuments = $obj->documents->count;
 -->
         <!-- end temp stamp -->
 
-		<div id="inner-container" class="inner-container">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="logo">
-
-						<div class="title obps fittext-obps">
-							<img
-								style="max-width: 50px;margin-bottom: 30px;"
-								src="/wp-content/themes/understrap/images/obp-logo-without-text.png" />cean Best Practices System
-						</div>
-						<div class="title our-vision">Our Vision</div>
-
-						<div class="map">
-							<div class="text-container">
-								<div class="text">
-									To have agreed and broadly adopted methods across ocean research, operations and applications.</div>
-								<br/>
-								<!-- <div class="title2"><?php echo $countOfDocuments; ?></div> -->
-							</div>
-						</div>
-						<!-- <div class="text2">
-							Best practices in the Repository
-						</div> -->
-                        <!-- tmp button for the Workshop 2020, still here for future use -->
-                        <!--
-                        <div
-                            class="col-sm-4"
-                            onclick="window.location.href = '/community-engagement/workshop-iv-2020/'">
-                            <img
-                                style="max-width: 400px;margin-bottom: 30px;"
-                                src="/wp-content/themes/understrap/images/obpsIV-ugly-button.png" />
-                        </div>
-                        -->
-					</div>
-				</div>
-				<div class="col-lg-8">
-					<div class="row feature-row">
-						<div class="col-lg-4">
-							<div id="feature-1" class="feature">
-								<img class="image" src="/wp-content/themes/understrap/images/what-is-a-best-practice.png" />
-								<div class="title">What is a Best Practice?</div>
-								<div>
-									<div class="text">A best practice is a methodology that has repeatedly produced superior results relative to other methodologies with the same objective; to be fully elevated to a best practice, a promising method will have been adopted and employed by multiple organizations.</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="feature">
-								<img class="image" src="/wp-content/themes/understrap/images/what-is-the-obps.png" />
-								<div class="title">What is the OBPS?</div>
-								<div>
-									<div class="text">The OBPS is a global, sustained system comprising technological solutions and community approaches to enhance management of methods as well as support the development of ocean best practices.</div>
+		    <div id="inner-container" class="inner-container">
+			    <div class="row">
+				    <div class="col-lg-4">
+					    <div class="logo">
+						    <div class="title obps fittext-obps">
+						    	<img
+                                        style="max-width: 50px;margin-bottom: 30px;"
+								        src="/wp-content/themes/understrap/images/obp-logo-without-text.png" />cean Best Practices System
+                            </div>
+						    <div class="title our-vision">
+                                Our Vision
+                            </div>
+						    <div class="map">
+							    <div class="text-container">
+								    <div class="text">
+									    To have agreed and broadly adopted methods across ocean research, operations and applications.</div>
+							        </div>
+						        </div>
+					        </div>
+				        </div>
+				        <div class="col-lg-8">
+					        <div class="row feature-row">
+						        <div class="col-lg-4">
+							        <div
+                                            id="feature-1"
+                                            class="feature">
+								        <img
+                                                class="image"
+                                                src="/wp-content/themes/understrap/images/what-is-a-best-practice.png" />
+								        <div
+                                                class="title">
+                                            What is a Best Practice?
+                                        </div>
+								        <div>
+									        <div class="text">
+                                                A best practice is a methodology that has repeatedly produced superior results relative to other methodologies with the same objective; to be fully elevated to a best practice, a promising method will have been adopted and employed by multiple organizations.
+                                            </div>
+								        </div>
+							        </div>
+						        </div>
+						        <div class="col-lg-4">
+							        <div
+                                            class="feature">
+								        <img
+                                                class="image"
+                                                src="/wp-content/themes/understrap/images/what-is-the-obps.png" />
+								        <div class="title">
+                                            What is the OBPS?
+                                        </div>
+								        <div>
+									        <div class="text">The OBPS is a global, sustained system comprising technological solutions and community approaches to enhance management of methods as well as support the development of ocean best practices.</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4">
                             <div class="feature feature-search">
-                                <a href="https://search.oceanbestpractices.org" target="_blank">
-                                    <img class="image" src="/wp-content/themes/understrap/images/search-for-a-best-practice.png" />
-                                    <div class="title">Search for a Best Practice</div>
-                                </a>
-                                <div class="text" style="font-size: xx-large;"><?php echo $countOfDocuments; ?></div>
-                                <div class="text2">Best Practices in the Repository</div>
-                                <a href="https://repository.oceanbestpractices.org/password-login" target="_blank">
-                                    <div class="title">Submit a Best Practice</div>
-                                </a>
+                                <img class="image" src="/wp-content/themes/understrap/images/search-for-a-best-practice.png" />
+                                <div class="title">Best Practices in the Repository</div>
+                                <div class="text" style="color: #e59a4e;font-size: xx-large;"><?php echo $countOfDocuments; ?></div>
+                                        <a href="https://search.oceanbestpractices.org" target="_blank">
+                                            <div class="text2" style="color: lightgrey;">Search for a Best Practice</div>
+                                        </a>
+                                <hr />
+                                        <a href="https://repository.oceanbestpractices.org/password-login" target="_blank">
+                                            <div class="text2" style="color: lightgrey;">Submit a Best Practice</div>
+                                        </a>
+                                <hr />
+                                        <a href="/repository/metricsrepository">
+                                            <div class="text2" style="color: lightgrey;">Metrics</div>
+                                        </a>
                             </div>
                         </div>
 					</div>
