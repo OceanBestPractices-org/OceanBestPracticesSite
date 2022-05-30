@@ -19,19 +19,17 @@ $countOfDocuments = $obj->documents->count;
 	<div class="features-wrapper parallax">
 	    <div class="container features">
 
-        <!-- temp stamp to attract attention to workshop
-        remove this div and the css (wp-content/themes/understrap/stamp.css) after workshop
-        Arno 21 aug 2020
+        <!-- temp stamp to attract attention to workshop VI
+        comment this div and the css (wp-content/themes/understrap/stamp.css) after workshop
+        Arno 30/05/2020
         -->
 <?php
     wp_enqueue_style( 'customstyles', get_stylesheet_directory_uri() . '/stamp.css' );
 ?>
-<!--
         <div
             class="col-sm-4 putStampHere"
-            onclick="window.location.href = '/community-engagement/workshop-iv-2020/'">
+            onclick="window.location.href = '/workshops/ocean-practices-obps-workshop-vi/'">
         </div>
--->
         <!-- end temp stamp -->
 
 		    <div id="inner-container" class="inner-container">
@@ -94,15 +92,15 @@ $countOfDocuments = $obj->documents->count;
                                 <div class="title">Best Practices in the Repository</div>
                                 <div class="text" style="color: #e59a4e;font-size: xx-large;"><?php echo $countOfDocuments; ?></div>
                                         <a href="https://search.oceanbestpractices.org" target="_blank">
-                                            <div class="text2" style="color: lightgrey;">Search for a Best Practice</div>
+                                            <div class="text2" style="color: lightgrey;text-decoration: underline;">Search for a Best Practice</div>
                                         </a>
                                 <hr />
                                         <a href="https://repository.oceanbestpractices.org/password-login" target="_blank">
-                                            <div class="text2" style="color: lightgrey;">Submit a Best Practice</div>
+                                            <div class="text2" style="color: lightgrey;text-decoration: underline;">Submit a Best Practice</div>
                                         </a>
                                 <hr />
                                         <a href="/repository/metricsrepository">
-                                            <div class="text2" style="color: lightgrey;">Metrics</div>
+                                            <div class="text2" style="color: lightgrey;text-decoration: underline;">Metrics</div>
                                         </a>
                             </div>
                         </div>
@@ -315,7 +313,7 @@ echo "<!-- $events_exist -->";
 				</div>
 				<div class="col-lg-8">
 					<div class="feedback-text">
-						We welcom your feedback and hearing about your practice and procedure. Please get in touch with us by <a href="/contact">Contacting Us</a> via the website.
+						We welcome your feedback and hearing about your practice and procedure. Please get in touch with us by <a href="/contact">Contacting Us</a> via the website.
 					</div>
 				</div>
 			</div>

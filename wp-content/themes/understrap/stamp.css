@@ -1,11 +1,12 @@
 /* add stamp on the homepage */
 div.putStampHere:after
 {
-    content:'     OBPS\AWorkshop IV';
+    content:"OBPS Workshop VI \A       more info";
     white-space: pre-wrap;
     position:absolute;
-    top:-10px;
-    left:10px;
+    /*position:relative;*/
+    top:40px;
+    left:40px;
     z-index:1;
     font-family:Arial,sans-serif;
     -webkit-transform: rotate(-30deg); /* Safari */
@@ -13,7 +14,7 @@ div.putStampHere:after
     -ms-transform: rotate(-30deg); /* IE */
     -o-transform: rotate(-30deg); /* Opera */
     transform: rotate(-30deg);
-    font-size:50px;
+    font-size:30px;
     color:#c00;
     background:#fff;
     border:solid 4px #c00;
