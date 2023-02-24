@@ -10,7 +10,11 @@ $container = get_theme_mod('understrap_container_type');
 ?>
 
 <?php
-$json = file_get_contents('https://wtksu92k7b.execute-api.us-east-1.amazonaws.com/production/statistics/');
+/*
+ * the correct path for this can be found at https://us-east-1.console.aws.amazon.com/apigateway/main/apis?region=us-east-1
+ */
+//$json = file_get_contents('https://wtksu92k7b.execute-api.us-east-1.amazonaws.com/production/statistics/');
+$json = file_get_contents('https://mremzmye87.execute-api.us-east-1.amazonaws.com/prod/statistics/');
 $obj = json_decode($json);
 $countOfDocuments = $obj->documents->count;
 ?>
@@ -22,14 +26,14 @@ $countOfDocuments = $obj->documents->count;
         <!-- temp stamp to attract attention to workshop VI
         comment this div and the css (wp-content/themes/understrap/stamp.css) after workshop
         Arno 30/05/2020
-        -->
 <?php
-    wp_enqueue_style( 'customstyles', get_stylesheet_directory_uri() . '/stamp.css' );
+    //wp_enqueue_style( 'customstyles', get_stylesheet_directory_uri() . '/stamp.css' );
 ?>
         <div
             class="col-sm-4 putStampHere"
             onclick="window.location.href = '/workshops/ocean-practices-obps-workshop-vi/'">
         </div>
+        -->
         <!-- end temp stamp -->
 
 		    <div id="inner-container" class="inner-container">
