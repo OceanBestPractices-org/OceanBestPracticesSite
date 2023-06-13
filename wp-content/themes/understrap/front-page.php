@@ -23,17 +23,17 @@ $countOfDocuments = $obj->documents->count;
 	<div class="features-wrapper parallax">
 	    <div class="container features">
 
-        <!-- temp stamp to attract attention to workshop VI
+        <!-- temp stamp to attract attention to workshop VII
         comment this div and the css (wp-content/themes/understrap/stamp.css) after workshop
-        Arno 30/05/2020
+        Arno 30/05/2020, 13/06/2023
+        -->
 <?php
-    //wp_enqueue_style( 'customstyles', get_stylesheet_directory_uri() . '/stamp.css' );
+    wp_enqueue_style( 'customstyles', get_stylesheet_directory_uri() . '/stamp.css' );
 ?>
         <div
             class="col-sm-4 putStampHere"
-            onclick="window.location.href = '/workshops/ocean-practices-obps-workshop-vi/'">
+            onclick="window.location.href = '/community-engagement/workshops/ocean-practices-obps-workshop-vii-09-13-oct-2023-online/'">
         </div>
-        -->
         <!-- end temp stamp -->
 
 		    <div id="inner-container" class="inner-container">

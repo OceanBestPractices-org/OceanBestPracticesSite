@@ -1,7 +1,7 @@
 /* add stamp on the homepage */
 div.putStampHere:after
 {
-    content:"OBPS Workshop VI \A       more info";
+    content:"OBPS Workshop VII \A       more info";
     white-space: pre-wrap;
     position:absolute;
     /*position:relative;*/
