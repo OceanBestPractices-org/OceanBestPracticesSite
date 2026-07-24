@@ -1,10 +1,10 @@
 title: Ocean Best Practices System
-email: helpdesk@oceanbestpractices.org
+email: helpdesk@oceanexpert.org
 description: >-
   Providing technological advances and community approaches for all ocean methods 
   to better understand and sustain our oceans.
 baseurl: "" # the subpath of your site, e.g. /project-name
-url: "https://www.oceanbestpractices.org" 
+url: "https://oceanbestpractices.org" # Updated if a new domain is available, or keep as placeholder
 
 # Social links
 twitter_username: oceanbestpract
