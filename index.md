@@ -1,13 +1,8 @@
 ---
-layout: home
-title: Home
+layout: default
+title: IOC-OCEAN BEST PRACTICES SYSTEM
 ---
 
-<div class="hero-image">
-  <div style="background: rgba(0,0,0,0.3); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-    <h1 style="color: white; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">IOC-OCEAN BEST PRACTICES SYSTEM</h1>
-  </div>
-</div>
 **Providing technological advances and community approaches for all ocean methods to better understand and sustain our oceans.**
 
 ## Our Vision
