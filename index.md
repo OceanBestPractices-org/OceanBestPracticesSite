@@ -1,9 +1,14 @@
 ---
 layout: default
-title: IOC-OCEAN BEST PRACTICES SYSTEM
+title: Home
+hero_title: IOC-OCEAN BEST PRACTICES SYSTEM
 ---
 
-**Providing technological advances and community approaches for all ocean methods to better understand and sustain our oceans.**
+<div class="intro-section" style="margin-top: 20px; text-align: center;">
+  <p style="font-size: 1.25em; font-weight: 600; color: var(--brand-color); max-width: 800px; margin: 0 auto;">
+    Providing technological advances and community approaches for all ocean methods to better understand and sustain our oceans.
+  </p>
+</div>
 
 ## Our Vision
 > {{ site.vision }}
