@@ -1,0 +1,21 @@
+title: Ocean Best Practices System
+email: helpdesk@oceanbestpractices.org
+description: >-
+  Providing technological advances and community approaches for all ocean methods 
+  to better understand and sustain our oceans.
+baseurl: "" # the subpath of your site, e.g. /project-name
+url: "https://www.oceanbestpractices.org" 
+
+# Social links
+twitter_username: oceanbestpract
+github_username: oceanbestpractices
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom Variables
+vision: "To have agreed and broadly adopted methods across ocean research, operations and applications."
+footer_text: "Copyright © 2024 UNESCO/IOC Project office for IODE Oostende, Belgium."

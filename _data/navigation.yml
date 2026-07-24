@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: Repository
+  link: /repository/
+- name: Journal
+  link: /journal/
+- name: Training
+  link: /training/
+- name: Resources
+  link: /resources/
+- name: About
+  link: /about/
+- name: Contact
+  link: /contact/
