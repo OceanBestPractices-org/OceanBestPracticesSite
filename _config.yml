@@ -12,6 +12,11 @@ github_username: oceanbestpractices
 
 # Build settings
 theme: minima
+
+# Custom CSS
+# Minima by default looks for assets/main.scss, but we can also use custom styles
+# Alternatively, we can just use the minima defaults and override them.
+# However, many Jekyll sites use assets/main.scss for this.
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
