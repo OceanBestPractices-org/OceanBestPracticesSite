@@ -37,6 +37,7 @@ To be fully elevated to a best practice, a promising method will have been adopt
     <p>Supporting the <em>OceanPractices</em> programme.</p>
   </div>
 </div>
+<br />
 
 ### Events & News
 <div class="key-activities-grid">
