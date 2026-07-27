@@ -14,7 +14,9 @@ hero_title: IOC - Ocean Best Practices System
 > {{ site.vision }}
 
 ## What is a Best Practice?
-A best practice is a methodology that has repeatedly produced superior results relative to other methodologies with the same objective: to be fully elevated to a best practice, a promising method will have been adopted and employed by multiple organizations.
+A best practice is 
+a methodology that has repeatedly produced superior results relative to other methodologies with the same objective.
+To be fully elevated to a best practice, a promising method will have been adopted and employed by multiple organizations.
 
 ### Key Activities
 <div class="key-activities-grid">
@@ -35,8 +37,6 @@ A best practice is a methodology that has repeatedly produced superior results r
     <p>Supporting the <em>OceanPractices</em> programme.</p>
   </div>
 </div>
-
----
 
 ### Events & News
 <div class="key-activities-grid">
