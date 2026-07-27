@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-hero_title: IOC-OCEAN BEST PRACTICES SYSTEM
+hero_title: IOC - Ocean Best Practices System
 ---
 
 <div class="intro-section" style="margin-top: 20px; text-align: center;">
