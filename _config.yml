@@ -21,6 +21,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+header_pages:
+  - index.md
+  - repository.md
+  - journal.md
+  - about.md
+  - contact.md
+
 # Custom Variables
 vision: "To have agreed and broadly adopted methods across ocean research, operations and applications."
 footer_text: "Copyright © 2026 UNESCO/IOC Project office for IODE Oostende, Belgium."
