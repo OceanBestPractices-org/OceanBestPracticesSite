@@ -7,8 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /project-name
 url: "https://oceanbestpractices.org" # Updated if a new domain is available, or keep as placeholder
 
 # Social links
-twitter_username: oceanbestpract
-github_username: oceanbestpractices
+#twitter_username: oceanbestpract
+#github_username: oceanbestpractices
 
 # Build settings
 theme: minima
@@ -23,4 +23,4 @@ plugins:
 
 # Custom Variables
 vision: "To have agreed and broadly adopted methods across ocean research, operations and applications."
-footer_text: "Copyright © 2024 UNESCO/IOC Project office for IODE Oostende, Belgium."
+footer_text: "Copyright © 2026 UNESCO/IOC Project office for IODE Oostende, Belgium."
