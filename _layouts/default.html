@@ -23,7 +23,30 @@
     </style>
   </head>
   <body>
-    {%- include header.html -%}
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <div class="header-content" style="display: flex; align-items: center; justify-content: space-between;">
+          <a class="site-logo" rel="author" href="{{ "/" | relative_url }}">
+            <img src="{{ "/assets/images/combined_unesco_ioc_white_eng.png" | relative_url }}" alt="UNESCO IOC Logo" style="height: 50px; width: auto; margin-right: 20px; display: block;">
+          </a>
+          
+          <div class="site-title-container" style="flex-grow: 1;">
+            <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="color: white !important; font-weight: 700; letter-spacing: -0.5px; font-size: 1.5em;">{{ site.title | escape }}</a>
+          </div>
+
+          <nav class="site-nav">
+            <div class="trigger">
+              {%- for path in site.header_pages -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                <a class="page-link" href="{{ my_page.url | relative_url }}" style="color: white; font-weight: 600; margin-left: 20px;">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="hero-image">
