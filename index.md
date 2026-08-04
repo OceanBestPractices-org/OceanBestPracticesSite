@@ -4,6 +4,10 @@ title: Home
 hero_title: IOC - Ocean Best Practices System
 ---
 
+<div class="site-notice" style="background-color: #fff3cd; border: 1px solid #ffeeba; color: #856404; padding: 15px; margin-bottom: 20px; border-radius: 4px; text-align: center;">
+  <strong>Notice:</strong> We are currently rebuilding our website to serve you better. Please check back frequently for updates and new content!
+</div>
+
 <div class="intro-section" style="margin-top: 20px; text-align: center;">
   <p style="font-size: 1.25em; font-weight: 600; color: var(--brand-color); max-width: 800px; margin: 0 auto;">
     Providing technological advances and community approaches for all ocean methods to better understand and sustain our oceans.
