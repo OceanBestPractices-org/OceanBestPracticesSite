@@ -2,6 +2,8 @@
 layout: default
 title: Repository
 permalink: /repository/
+redirect_from:
+  - /ocean-best-practices-systems/repository/repository-policy/
 ---
 
 ## IOC-OBPS Repository
