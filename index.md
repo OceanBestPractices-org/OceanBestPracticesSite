@@ -37,7 +37,11 @@ To be fully elevated to a best practice, a promising method will have been adopt
     <p>Capacity development via OceanTeacher Global Academy.</p>
   </div>
   <div class="activity-card">
-    <h4><a href="/about/">UN Ocean Decade</a></h4>
+    <h4>
+        <a href="https://oceandecade.org/host-programme/ocean-best-practices-for-the-decade/" target="_blank">
+            UN Ocean Decade
+        </a>
+    </h4>
     <p>Supporting the <em>OceanPractices</em> programme.</p>
   </div>
 </div>
